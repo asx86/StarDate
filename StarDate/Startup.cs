@@ -37,6 +37,7 @@ namespace StarDate
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
             app.UseIdentity();
             app.UseMvcWithDefaultRoute();
 
